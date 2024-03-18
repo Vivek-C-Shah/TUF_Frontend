@@ -1,9 +1,8 @@
 {
-    "version": 2,
     "routes": [
       {
-        "src": "^/((?!_next).)*$",
-        "dest": "/index.html"
+        "src": "/[^.]+",
+        "dest": "/"
       }
     ]
   }
