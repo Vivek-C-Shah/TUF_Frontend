@@ -1,0 +1,31 @@
+body{
+    background-color: #401F71;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #824D74;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-submission {
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-submission.even {
+    background-color: #FDAF7B;
+  }
+  
+  .form-submission.odd {
+    background-color: #BE7B72;
+  }
